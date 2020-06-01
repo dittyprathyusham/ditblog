@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/23d649e637.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+<body id="my-portfolio" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <header class="container.fluid bg-header" id="home">
+        <div class="header-bg-gray">
+            <nav class="navbar navbar bg-dark navbar-expand-md fixed-top" id="my-navbar">
+
+                <a href="#home" class="navbar-brand"><img src="" style="height: 35px;"></a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-content " aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbar-content">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                              <a href="#home" class="nav-link">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                      </ul>
+                  </div>
+            </nav>
+            <!--end of nav--> 
+            <!--container for banner text--> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                         <!--banner text--> 
+                         <div class="banner-text">
+                             <h2>Hi, I'm Ditty Dixon,</h2>
+                             <p>A UI/UX Designer &amp; Web Designer</p>
+                         </div>
+                          <!--scroll-in- banner--> 
+                          <div class="scroll-to-about text-center">
+                              <a href="#about"><i class="fa fa-angle-down"></i></a>
+                          </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </header>
+    <!--About section start--> 
+    
+    <section class="section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-right">
+                    <h2 class="title-text">About Me</h2>
+                </div>
+                <div class="col-md-6 text-left">
+                    <div class="about-text">
+                        <p> I'm a Post Graduate in Computer Science and passionate and 
+                          creative Graphic Designer with two and half  Years of experience.</p>
+                             &nbsp;
+                           
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top:30px;padding-left:115px;">
+              <div class="col-md-4">
+                
+    
+                <img src="image/increase.svg" style="height: 50px;width: 60px;margin-left:37px;">
+             
+              <ul class="about-list">
+                <h4 >Experience </h4>
+          
+                                <li>	Goalsr India Pvt Ltd
+                                  Associate Software Engineer
+                                  27/8/2018-28/12/2018
+                                  </li>
+                                <li>	Ironss Technologies Pvt ltd
+                                  UI/UX Designer
+                                  12/07/2016-10/06/2018
+                                  </li>
+                                <li>	BlacMagix
+                                  Graphic Designer
+                                  05/06/2015-02/06/2016
+                                  </li>
+                            </ul>
+                
+              </div>
+              <div class="col-md-4">
+                <div class="icon-text">
+                  <img src="image/talk(1).svg" style="height: 50px;width: 60px;margin-left: 26px;">
+                </div>
+               
+                <ul class="about-list">
+                  <h4>Personal Skill</h4>
+                  <li>		Creative thinker</li>
+                  <li>	Imaginative </li>
+                  <li>	Energetic</li>
+                  <li>  Initiative</li>
+                  <li> Attention to details</li>
+                  <li>	Good Communication</li>
+              </ul>
+  
+              </div>
+              <div class="col-md-4">
+                <div class="icon-text">
+                  <img src="image/support(1).svg" style="height: 50px;width: 60px;margin-left: 30px;">
+                </div>
+                
+                  <ul class="about-list">
+                    <h4>Technical Skill</h4>
+                    <li>	Adobe Photoshop</li>
+                    <li>	Adobe Illustrator	 </li>
+                    <li>	Adobe XD</li>
+                    <li>  HTML/CSS/Javascript</li>
+                    <li> 	Bootstrap </li>
+                    <li>	3D Blender</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+      <!--About section end-->
+
+       <!--portfolio section started-->
+       <section class="section-padding"  id="portfolio">
+           <div class="container">
+               <div class="row">
+                   <div class="col-sm-12">
+                       <h2 class="title text-center">Let's See my Work</h2>
+                   </div>
+               </div>
+               <!--Image grid-->
+              <div class="container">
+                   <div id="my-grid" class="grid-padding">
+                     <div class="row">
+                         <!--first-colum-->
+                
+                         <div class="col-sm-3">
+                          <div class="row"><img src="image/sm-img/login.jpg" class="" onclick="openModal();currentSlide(1)"></div>
+                          <div class="row"><img src="image/sm-img/airlines-signup.jpg" class="" onclick="openModal();currentSlide(2)"></div>
+                          <div class="row"><img src="image/sm-img/1st-page.jpg" class="" onclick="openModal();currentSlide(3)"></div>
+                          </div>
+                      <!--second-colum-->
+                    <div class="col-sm-3">
+                      <div class="row"><img src="image/sm-img/2nd-page.jpg" class="" onclick="openModal(); currentSlide(4)"> </div>
+                      
+                      <div class="row"><img src="image/sm-img/irons-web-1.jpg" class="fit-image" onclick="openModal();currentSlide(5)"></div>
+                      <div class="row"><img src="image/sm-img/irons-web-2.jpg" class="fit-image" onclick="openModal();currentSlide(6)"></div>
+                     
+                     
+                    </div>
+                    <!--third-colum-->
+                  <div class="col-sm-3">
+                      <div class="row"><img src="image/sm-img/irons-web-4-.jpg" class="fit-image" onclick="openModal(); currentSlide(7)" ></div>
+                      <div class="row"><img src="image/sm-img/irons-web-5.jpg" class="fit-image" onclick="openModal();currentSlide(8)"></div>
+                      <div class="row"><img src="image/sm-img/edify-full (2).jpg" class="fit-image" onclick="openModal();currentSlide(9)"></div>
+                     
+                        </div>
+                        <!--4th-colum-->
+                        <div class="col-sm-3">
+                          <div class="row"><img src="image/sm-img/pixels.jpg" class="fit-image" onclick="openModal(); currentSlide(10)" ></div>
+                          <div class="row"><img src="image/sm-img/penbook.jpg" class="fit-image" onclick="openModal();currentSlide(11)"></div>
+                          <div class="row"><img src="image/sm-img/demo21.jpg" class="fit-image" onclick="openModal();currentSlide(12)"></div>
+                          
+                        
+                              
+                            </div>
+                    </div>
+                </div>
+           
+       </section>
+       <!--portfolio section ended-->
+       
+         <!--model-for full-screen-image-->
+         <div id="my-modal" class="modal">
+          <!--close-button-->
+    <span class="close" onclick="closeModal()">&times;</span>
+          <!--content-for-modal-->
+    <div class="modal-content">
+          <!--img-viewer-->
+          <div class="my-slide">
+          <div class="numbertext">1/12</div>
+              <img src="image/login.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+              <div class="numbertext">2/12</div>
+              <img src="image/airlines-signup.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">3/12</div>
+              <img src="image/1st-page.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">4/12</div>
+              <img src="image/2nd-page.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">5/12</div>
+              <img src="image/irons-web-1.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">6/12</div>
+              <img src="image/irons-web-2.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">7/12</div>
+              <img src="image/irons-web-4-.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">8/12</div>
+              <img src="image/irons-web-5.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">9/12</div>
+              <img src="image/edify-full (2).jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">10/12</div>
+              <img src="image/pixels.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">11/12</div>
+              <img src="image/penbook.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">12/12</div>
+              <img src="image/demo21.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">13/15</div>
+              <img src="image/vwcar.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">14/15</div>
+              <img src="image/demo21.jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">15/17</div>
+              <img src="image/edify-full (2).jpg" class="mob-app">
+          </div>
+          <div class="my-slide">
+            <div class="numbertext">16/15</div>
+              <img src="image/home-design.jpg" class="mob-app">
+          </div>
+          <!--next & previous button-->
+          <a class="prev" onclick="changeSlides(-1)">&#10094;</a>
+          <a class="next" onclick="changeSlides(1)">&#10095;</a>
+    </div>
+
+    </div>
+            
+   <!--model-for image-end-->
+   <footer class="footer-padding" id="contact">
+     <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+          <p class="text-center" style="font-size: 34px;color: #fff;">Contact Me.</p>
+          <div>
+            <div class="contact-text">
+              <div class="col-sm-12">
+                <p class="text-center"><b>Address</p></b>
+                <p class="text-center">Prathyusham,<br>Porookara,<br>Edappallykotta,<br>Chavara,<br>Kollam</p>
+                <p class="text-center">Mobile No:7293554843</p>
+                <p class="text-center">Email:dittyprathyusham@gmail.com</p>
+                <p class="text-center">Designed by:@ditz.dix</p>
+                <div>
+                <a href=":https://ditzcreations.blogspot.com/" target=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+   </footer>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
+
+
+           
+</body>
+</html>
